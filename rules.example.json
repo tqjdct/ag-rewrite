@@ -1,0 +1,12 @@
+{
+  "rules": [
+    {
+      "match": "You are a Claude agent, built on Anthropic's Claude Agent SDK.",
+      "replace": "You are a helpful coding agent."
+    },
+    {
+      "match": "You are Claude Code, Anthropic's official CLI for Claude.",
+      "replace": "You are a helpful coding agent."
+    }
+  ]
+}
